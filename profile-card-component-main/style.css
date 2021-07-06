@@ -1,67 +1,116 @@
 
-$outline: blue;
-$background: hsl(185, 75%, 39%);
 
 html,
 body {
-	width: 60%;
-	background: lightblue;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background: #19A1AD;
+	justify-content: center;
+	align-items: center;
 }
 
 * {
-	position: absolute;
+
 }
 
 p {
-  color: $outline;
+
 }
 
+
+
 .card {
-	height: 400px;
-	width: 400px;
-	border: 1px $outline solid;
+	position:absolute;
+	display: flex;
+	justify-content: center;
+
+	height: 50%;
+	width: 30%;
+
 	border-radius: 4%;
-	background: #fff;
-	transform: translate( 50%, 30%);
+	background: white;
+
 
 }
 
 .banner {
+	position: absolute;
+	display: flex;
+	align-self:  stretch;
 	width: 100%;
-	height: 35%;
-	outline: 1px $outline solid;
-	border-radius: 7% 7% 0 0;
-	background: $background;
+	height: 40%;
+
+	border-radius: 4% 4% 0 0;
+	background-image: url("images/bg-pattern-card.svg");
+	background-color: hsl(185, 75%, 39%);
 }
 
 .info-main{
-	width: 40%;
+	display:flex;
+	position:absolute;
+	align-self: center;
+	align-content: flex-start;
+
+	width: 60%;
 	height: 17%;
-	outline: 1px $outline solid;
-	transform: translate(75%, 320%);
+	top: 60%;
+	outline: 1px black solid;
+
+
 }
 
 .user-name {
-		height: 60%;
-		width: 60%;
-		outline: 1px $outline solid;
+		align-self: flex-start;
+
+		height: 40%;
+		width: auto;
+		outline: 1px black solid;
 		background: red;
+
 }
 
 .user-age {
-		height: 60%;
-		width: 60%;
-		outline: 1px $outline solid;
+		align-self: flex-start;
+
+		height: 40%;
+		width: auto;
+		outline: 1px black solid;
 		background: red;
-	top: 90%;
+
 }
 
 
 .info-stats{
+	position: absolute;
+	display:flex;
+	align-self: flex-end;
+	justify-content: space-around;
+	flex-basis: 100%;
+	align-items: center;
 	width: 100%;
 	height: 20%;
-	outline: 1px $outline solid;
-	top: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+
+
+}
+
+/*
+hr{
+
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+
+} */
+
+.attribution {
+	display: flex;
+	align-self: flex-end;
+	align-items: stretch;
+
 }
 
 /* Mobile phone, 375px*/
