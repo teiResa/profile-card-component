@@ -1,0 +1,74 @@
+
+$outline: blue;
+$background: hsl(185, 75%, 39%);
+
+html,
+body {
+	width: 60%;
+	background: lightblue;
+}
+
+* {
+	position: absolute;
+}
+
+p {
+  color: $outline;
+}
+
+.card {
+	height: 400px;
+	width: 400px;
+	border: 1px $outline solid;
+	border-radius: 4%;
+	background: #fff;
+	transform: translate( 50%, 30%);
+
+}
+
+.banner {
+	width: 100%;
+	height: 35%;
+	outline: 1px $outline solid;
+	border-radius: 7% 7% 0 0;
+	background: $background;
+}
+
+.info-main{
+	width: 40%;
+	height: 17%;
+	outline: 1px $outline solid;
+	transform: translate(75%, 320%);
+}
+
+.user-name {
+		height: 60%;
+		width: 60%;
+		outline: 1px $outline solid;
+		background: red;
+}
+
+.user-age {
+		height: 60%;
+		width: 60%;
+		outline: 1px $outline solid;
+		background: red;
+	top: 90%;
+}
+
+
+.info-stats{
+	width: 100%;
+	height: 20%;
+	outline: 1px $outline solid;
+	top: 80%;
+}
+
+/* Mobile phone, 375px*/
+/*
+@media screen and (min-width: 375px) {
+	body {
+		width: 337px;
+	}
+}
+*/
