@@ -16,17 +16,31 @@ body {
 	align-items: center;
 	overflow: hidden;
 
-}
-
-body {
-	width: 1990px;
 	background: #19A1AD;
 	background-image: url(images/bg-pattern-top.svg),
 	 url(images/bg-pattern-bottom.svg);
-	background-size: 600px;
-	background-position:  	left -111px top -165px, right -30px bottom -42vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+
+
+
+@media (min-width: 377px) {
+	body{
+	width: 1440px;
+	background-position:	left -5px top -205px, right 30px bottom -302px;
+	background-size: 600px;
+}
+}
+
+@media (max-width: 376px) {
+	body {
+	width: 400px;
+	background-position:	left -210px top -140px, right -350px bottom -210px;
+	background-size: 500px;
+
+}
 }
 
 * {
@@ -44,8 +58,8 @@ p {
 	position:absolute;
 	display: flex;
 	justify-content: center;
-	height: 380px;			/* use pixels so it keeps it's size */
-	width: 350px;
+	height: 350px;			/* use pixels so it keeps it's size */
+	width: 320px;
 	border-radius: 20px;
 	background: white;
 
