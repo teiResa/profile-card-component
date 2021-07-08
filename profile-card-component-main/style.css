@@ -1,4 +1,10 @@
 
+/* I cannot test whether the font is working as it is a Google APi, and I
+* live in china. If someone happens to see this, could you let me know?
+* until i can test it, I have chosen to leave those divs outlined.
+* I'm currently looking for  a similar font or a way around this issue.
+*/
+
 
 html,
 body {
@@ -9,7 +15,7 @@ body {
 	background-image: url(images/bg-pattern-top.svg),
 	 url(images/bg-pattern-bottom.svg);
 	background-size: 50%;
-	background-position: left 46vw top 55vh, right 50vw bottom -64vh;
+	background-position:  right 52.5vw bottom 42vh, 	left 51vw top 55vh;
 	background-repeat: no-repeat;
 	justify-content: center;
 	align-items: center;
