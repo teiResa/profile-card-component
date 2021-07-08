@@ -3,53 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/teiResa-favi.png">
 
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
+
+
 <body>
 
+
+
   <div class="card">
+
       <div class="banner">      </div>
+
+
+
       <div class="info-main">
         <div class="user-info">
           <div class="user-name"> Victor Crest </div>
           <div class="user-age">  26	</div>
-          <div class="user-city"> London	</div>
+          <div class="user-city" id="title"> London	</div>
         </div>
       </div>
 
       <!-- <hr> -->
       <div class="info-stats">
 
-          <div class="user-followers">
-            <div class="followers-count"> 80K </div>
-            <div class="followers-title"> Followers	</div>
+          <div class="user-followers" id="info-box">
+            <div class="followers-count" id="count"> 80K </div>
+            <div class="followers-title" id="title"> Followers	</div>
         </div>
-          <div class="user-likes">
-            <div class="likes-count"> 803K </div>
-            <div class="likes-title"> Likes	</div>
+          <div class="user-likes" id="info-box">
+            <div class="likes-count" id="count"> 803K </div>
+            <div class="likes-title"  id="title"> Likes	</div>
         </div>
-          <div class="user-photos">
-            <div class="photos-count">  1.4K	</div>
-            <div class="photos-title">  Photos	</div>
-        </div>
-      </div>
-
-
-
-      <div class="profile-frame">
-        <div class="profile-picture">
-
+          <div class="user-photos" id="info-box">
+            <div class="photos-count" id="count">  1.4K	</div>
+            <div class="photos-title" id="title">  Photos	</div>
         </div>
       </div>
+
+
+
+
+        <img class="profile-picture" src="./images/image-victor.jpg" alt="victor pictor">
+
   </div>
 
 
