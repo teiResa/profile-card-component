@@ -23,7 +23,8 @@ body {
 	background-attachment: fixed;
 }
 
-
+<!-- fot the background image, make the two sizes images that change with size.
+image 1 unless smaller than N, then it's image 2."" -->
 
 
 @media (min-width: 377px) {
